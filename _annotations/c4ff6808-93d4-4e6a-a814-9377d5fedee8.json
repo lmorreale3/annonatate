@@ -1,0 +1,34 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/canvas/f129"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Chairo",
+            "purpose": "tagging",
+            "creator": {
+                "id": "lmorreale3",
+                "name": "lmorreale3"
+            },
+            "created": "2021-09-27T19:08:36.432Z",
+            "modified": "2021-09-27T19:08:37.696Z"
+        }
+    ],
+    "target": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/canvas/f129",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:3789.315185546875,2218.839111328125,542.983154296875,178.49853515625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/c4ff6808-93d4-4e6a-a814-9377d5fedee8.json"
+}
