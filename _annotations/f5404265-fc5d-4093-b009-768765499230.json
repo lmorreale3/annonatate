@@ -1,0 +1,51 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/canvas/f129"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Alexandria",
+            "purpose": "commenting",
+            "creator": {
+                "id": "lmorreale3",
+                "name": "lmorreale3"
+            },
+            "created": "2022-07-15T17:49:32.613Z",
+            "modified": "2022-07-15T17:49:35.624Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "lmorreale3",
+                "name": "lmorreale3"
+            },
+            "created": "2022-07-15T17:49:37.159Z"
+        }
+    ],
+    "target": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/canvas/f129",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3303.682861328125,3579.697998046875,375.435546875,94.028076171875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55013450m/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f5404265-fc5d-4093-b009-768765499230.json",
+    "motivation": "commenting"
+}
