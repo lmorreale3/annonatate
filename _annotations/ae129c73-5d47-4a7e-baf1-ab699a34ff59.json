@@ -1,0 +1,52 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.lat.7612/canvas/p0039"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Damasco",
+            "purpose": "commenting",
+            "creator": {
+                "id": "lmorreale3",
+                "name": "lmorreale3"
+            },
+            "created": "2022-07-15T17:42:21.826Z",
+            "modified": "2022-07-15T17:42:27.372Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.3095814,
+                    33.5130695
+                ]
+            },
+            "source": "https://www.openstreetmap.org/node/1091272140",
+            "creator": {
+                "id": "lmorreale3",
+                "name": "lmorreale3"
+            },
+            "created": "2022-07-15T17:42:35.551Z"
+        }
+    ],
+    "target": {
+        "source": "https://digi.vatlib.it/iiif/MSS_Vat.lat.7612/canvas/p0039",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=557.0056762695312,2106.888916015625,135.6221923828125,59.254150390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.lat.7612/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ae129c73-5d47-4a7e-baf1-ab699a34ff59.json",
+    "motivation": "commenting"
+}
