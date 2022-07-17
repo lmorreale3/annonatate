@@ -9,6 +9,12 @@
             "title": "Chairo",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-annotation annotationurl='https://lmorreale3.github.io/annonatate/annotations/f5404265-fc5d-4093-b009-768765499230.json'></iiif-annotation>",
+            "title": "Alexandria",
+            "description": "Alexandria",
+            "thumbnail": ""
         }
     ]
 }
